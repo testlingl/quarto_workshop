@@ -190,6 +190,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
+<p>The finished release (finished workshop): <a href="https://zenodo.org/badge/latestdoi/688957297"><img src="https://zenodo.org/badge/688957297.svg" class="img-fluid" alt="DOI"></a></p>
 <p>This contains the start of the “Get started” from <a href="https://quarto.org/docs/get-started/hello/vscode.html">quarto</a>.</p>
 <p>For a demonstration of a line plot on a polar axis, see <a href="#fig-polar">Figure&nbsp;1</a>. This is some additional text</p>
 <div class="cell" data-execution_count="1">
@@ -215,22 +216,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>Let’s look at some text output</p>
-<div id="fig-test" class="quarto-figure quarto-figure-center anchored">
+<div id="fig-prints" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> x <span class="kw">in</span> [<span class="st">"hello"</span>, <span class="st">"world"</span>]:</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(x)</span>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> test_function() <span class="op">-&gt;</span> <span class="va">None</span>:</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">"I have been called."</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="st">"another testmessage"</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> x <span class="kw">in</span> [<span class="st">"hello"</span>, <span class="st">"world"</span>]:</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(x)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="st">"another testmessage"</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>test_function()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>hello
 world
-another testmessage</code></pre>
+another testmessage
+I have been called.</code></pre>
 </div>
 <figcaption class="figure-caption">Figure&nbsp;2: <strong>?(caption)</strong></figcaption>
 </figure>
 </div>
-<p>And this is a new reference to <a href="#fig-test">Figure&nbsp;2</a></p>
+<p>And this is a new reference to <a href="#fig-prints">Figure&nbsp;2</a></p>
 <div id="fig-baby" class="quarto-figure quarto-figure-right anchored">
 <figure class="figure">
 <p><img src="https://cdn.pixabay.com/photo/2016/10/02/06/27/baby-1709013_1280.jpg" class="img-fluid figure-img" width="400"></p>
