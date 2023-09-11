@@ -34,18 +34,22 @@ plt.show()
 Let's look at some text output
 
 ```{python}
-#| label: fig-test
-#| fig-cap: "This is some text."
+#| label: fig-prints
+#| fig-cap: "This is some text"
+
+def test_function() -> None:
+  print("I have been called.")
 
 for x in ["hello", "world"]:
   print(x)
 
 y = "another testmessage"
 print(y)
+test_function()
 
 ```
 
-And this is a new reference to @fig-test
+And this is a new reference to @fig-prints
 
 
 ![A baby](https://cdn.pixabay.com/photo/2016/10/02/06/27/baby-1709013_1280.jpg){#fig-baby fig-align="right" width=400}

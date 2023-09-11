@@ -1,0 +1,17 @@
+{
+    "title": "Getting Started with Quarto",
+    "upload_type": "publication",
+    "publication_type": "report",
+    "keywords": [
+      "python",
+      "quarto",
+      "tutorial"
+    ],
+    "creators": [
+      {
+        "name": "Thomas Lingl",
+        "affiliation": "SIB Swiss Institute of Bioinformatics",
+        "orcid": ""
+      } 
+    ]
+  }
