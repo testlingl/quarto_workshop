@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Analysis",
+    "section": "",
+    "text": "Some analysis"
+  },
+  {
+    "objectID": "quarto_workshop.html",
+    "href": "quarto_workshop.html",
+    "title": "Quarto Basics",
+    "section": "",
+    "text": "This contains the start of the “Get started” from quarto.\nFor a demonstration of a line plot on a polar axis, see Figure 1. This is some additional text\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\nLet’s look at some text output\n\n\nfor x in [\"hello\", \"world\"]:\n    print(x)\n\nhello\nworld\n\nFigure 2: ?(caption)\n\n\nAnd this is a new reference to Figure 2\n\n\n\nFigure 3: A baby\n\n\nSome picture of a baby Figure 3"
+  },
+  {
+    "objectID": "more.html",
+    "href": "more.html",
+    "title": "More information",
+    "section": "",
+    "text": "Some additional Information\nThis could be some more information regarding the project\n\nsome points\nthat need to be made\n\nmaybe even with\nsome subpoints"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this awesome website\nThis is a training playground."
+  },
+  {
+    "objectID": "moremore.html",
+    "href": "moremore.html",
+    "title": "MoreMore Information",
+    "section": "",
+    "text": "Isn’t it great to get even more information about this?\nThis could involve some more data:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nprint(theta[:5])\nfig, ax = plt.subplots(subplot_kw = {'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\nplt.close()\n\n[0.         0.06283185 0.12566371 0.18849556 0.25132741]\n\n\n\n\n\nFigure 1: Another line plot on a polar axis\n\n\n\n\nReference to new block Figure 1"
+  },
+  {
+    "objectID": "moremore.html#oh-wow-even-some-more-information",
+    "href": "moremore.html#oh-wow-even-some-more-information",
+    "title": "MoreMore Information",
+    "section": "",
+    "text": "Isn’t it great to get even more information about this?\nThis could involve some more data:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nprint(theta[:5])\nfig, ax = plt.subplots(subplot_kw = {'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\nplt.close()\n\n[0.         0.06283185 0.12566371 0.18849556 0.25132741]\n\n\n\n\n\nFigure 1: Another line plot on a polar axis\n\n\n\n\nReference to new block Figure 1"
+  }
+]
