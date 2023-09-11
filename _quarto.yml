@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Awesome website"
+  navbar:
+    background: primary
+    search: True
+    left:
+      - href: quarto_workshop.qmd
+        text: Home
+      - text: About
+        href: about.qmd
+      - analysis.qmd
+      - text: More
+        menu: 
+          - more.qmd
+          - moremore.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

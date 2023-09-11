@@ -1,0 +1,18 @@
+---
+title: "More information"
+author: Thomas
+date: 11.09.2023
+format:
+  html:
+    code-fold: false
+jupyter: python3
+---
+
+# Some additional Information
+
+This could be some more information regarding the project
+
+- some points
+- that need to be made
+    - maybe even with
+    - some subpoints

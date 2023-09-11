@@ -1,10 +1,14 @@
 ---
 title: "Quarto Basics"
+author: Thomas
+date: 11.09.2023
 format:
   html:
     code-fold: false
 jupyter: python3
 ---
+
+This contains the start of the "Get started" from [quarto](https://quarto.org/docs/get-started/hello/vscode.html).
 
 For a demonstration of a line plot on a polar axis, see @fig-polar.
 This is some additional text
@@ -30,8 +34,16 @@ plt.show()
 Let's look at some text output
 
 ```{python}
+#| label: fig-some-text
 #| fig-cap: "This is some text."
 
 for x in ["hello", "world"]:
     print(x)
 ```
+
+And this is a new reference to @fig-some-text
+
+
+![A baby](https://cdn.pixabay.com/photo/2016/10/02/06/27/baby-1709013_1280.jpg){#fig-baby fig-align="right" width=400}
+
+Some picture of a baby @fig-baby
