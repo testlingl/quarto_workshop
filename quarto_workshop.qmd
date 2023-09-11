@@ -8,6 +8,11 @@ format:
 jupyter: python3
 ---
 
+
+The finished release (finished workshop):
+[![DOI](https://zenodo.org/badge/688957297.svg)](https://zenodo.org/badge/latestdoi/688957297)
+
+
 This contains the start of the "Get started" from [quarto](https://quarto.org/docs/get-started/hello/vscode.html).
 
 For a demonstration of a line plot on a polar axis, see @fig-polar.
